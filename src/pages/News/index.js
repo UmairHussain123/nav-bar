@@ -1,8 +1,11 @@
 import React from 'react'
-
+import NavBar from '../../../component/NavBar';
 function index() {
   return (
-    <div>News</div>
+    <div>
+      <NavBar/>
+      
+      News</div>
   )
 }
 

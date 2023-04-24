@@ -1,0 +1,31 @@
+.mainDiv{
+  /* background-color: aqua; */
+/* width:auto; */
+ 
+}
+.nav{
+    display: flex;
+    justify-content: center;
+ 
+}
+ul.bullets{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    list-style-type: none; /* Remove bullets */
+    padding: 5px; /* Remove padding */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    background-color: black;
+    border-radius: 15px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+

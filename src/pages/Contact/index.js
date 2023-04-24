@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from '../../../component/NavBar'
 
 function index() {
-  return (
-    <div>Contact</div>
+  return (<>
+<NavBar></NavBar>
+  <div>Contact</div>
+  
+  </>
   )
 }
 
